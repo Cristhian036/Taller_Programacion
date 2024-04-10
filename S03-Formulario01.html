@@ -1,0 +1,70 @@
+<h1> Formulario HTML5</h1>
+<form action="fornulario.php" method="post">
+<fieldset>
+<legend>Datos</legend>
+<div class="cont1">
+    <label for="nail">Mail</label>
+    <input type="email" 1d="mail" name="mail" placeholder="nombre@hosting.com" size="30" required="required" autofocus>
+    <br>
+    <br>
+    <Label for="web">Web</label>
+    <input type="url" id="web" name="web" placeholder="http://ww.ejemplo.com" size="50" required="required">
+    <br>
+    <br>
+    <label for="licencias">Numero de licencias</label>
+    <input type="number" id="licencias" name="licencias" placeholder="1-10" min="1" max="10" required="required">
+</div>
+</fieldset>
+<br>
+<fieldset>
+<legend>Datos Direccion</legend>
+<div class="cont2">
+    <Label for="nombre">Nombre</label>
+    <input type= "text" id="nombre" name="nombre" placeholder="nombre y apellidos" size="50">
+    <br>
+    <br>
+    <Label for="direccion">Direccion</label>
+    <textarea name="direccion" id="direccion" placeholder="calle, núnero, piso, ciudad" cols="30" rows="5" required="required"></textarea>
+    <br>
+    <br>
+    <lacel for="codigo postal">Código Postal</label>
+    <input type="text" id="codigopostal" placebolder="código postal" maxlength="5"required  ="regaired">
+    <br>
+    <br>
+    <label for="pais">País</label>
+    <select name="pais" id="pais" required="required">
+        <option value="PK">Perukistan</aption>
+        <option value="PS">Perusalen</opcion>
+        <option value="PP">Peru premium</opcion>
+        <option value="" selected>selecciona</opcion>
+
+    </select>
+    <br>
+    <br>
+    <label for="telefono">Número de teléfono</label>
+    <input type="tel" id="telefono" name="telefono" required="required" placeholde:="teléfono con prefijo">
+</div>
+</fieldset>
+<br>
+<fieldset>
+<legend>Detalle Tarjeta</legend>
+<div clagg="cont3">
+    <label for="tarjeta">Número Tarjeta</label>
+    <input type="number" id="tarjeta" name="tarjeta" required="required" placeholder="delante de la tarjeta">
+    <br>
+    <br>
+    <label for="cvv">CV</label>|
+    <input type="nunber" id="ovv" name="avv" required="required" placeholder="3 dígitos" max="999">
+    <br>
+    <br>
+    <label for="caducidad">Fecha Caducidad</label>
+    <input type="month" id="caducidad" name="caducidad" required="required">
+    <br>
+    <br>
+</div>
+</fieldset>
+<br>
+<input type="submit" value="Enviar">
+<input class="boton2" type="reset" value="Borrar">
+</form>
+</html>
